@@ -1,0 +1,17 @@
+img {
+  width: 200px;
+}
+
+.jumbotron {
+  text-align: center;
+  text-shadow: 2px 4px 3px red;
+}
+
+p {
+  float: right;
+  padding-left: 10px;
+}
+
+ul {
+  margin-bottom: 20px;
+}

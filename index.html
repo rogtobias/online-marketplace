@@ -12,18 +12,78 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-
+        <h1>Crazy Ed's Junk</h1>
+        <h6>But you're only allowed one item</h6>
       </div>
-      <form class="saleItems">
-        <select class="form-control" id="goods">
-          <option><img src="img/bike.jpeg" alt="bicycle" /></option>
-          <option><img src="img/broc.jpg" alt="brocolli house" /></option>
-          <option><img src="img/dinos.jpg" alt="wrestling dinos" /></option>
-          <option><img src="img/owl.jpg" alt="owl with a hat" /></option>
-        </select>
+      <div class="container">
+        <form class="form-inline">
+          <div class="form-group">
+            <label for="inputName">Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Jane Doe">
+          </div>
+          <div class="form-group">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="jane.doe@example.com">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="email" class="form-control" id="inputAddress" placeholder="Physical address">
+          </div>
+          <button type="submit" class="btn btn-default">Place Order</button>
+        </form>
+    <!--form-inline ends, radio form begins-->
+        <form class="saleItems">
+          <div class="radio">
+            <label>
+              <input type="radio" name="saleItems" value="bike" checked>
+              <img src="img/bike.jpeg" alt="bicycle" />
+              <p>
+                Slightly used bmx bike. Front tire will hold air for about a day.
+              </p>
+              <ul>
+                <li>Price: $19.99 </li>
+              </ul>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="saleItems" value="brocolli">
+              <img src="img/broc.jpg" alt="brocolli house" />
+              <p>
+                Are you into tiny homes? Crazy Ed has the tiniest of homes.
+              </p>
+              <ul>
+                <li>Price: $19.99</li>
+              </ul>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="saleItems" value="dinos">
+              <img src="img/dinos.jpg" alt="wrestling dinos" />
+              <p>
+                Loved Jurassic Park? Crazy Ed has that action too. They are forever locked in combat.
+              </p>
+              <ul>
+                <li>Price: $19.99</li>
+              </ul>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="saleItems" value="owl">
+              <img src="img/owl.jpg" alt="owl with a hat" />
+              <p>
+                Our local resident owl is wanting out. He only bites every so often.
+              </p>
+              <ul>
+                <li>Price: $19.99</li>
+              </ul>
+            </label>
+          </div>
 
-      </form>
-
+        </form>
+      </div>
     </div>
 
 
